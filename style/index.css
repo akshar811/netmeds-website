@@ -1,0 +1,49 @@
+:root {
+    --header-bg: #32AEB1;
+    --green: #5ba41c;
+    --dark-bg: #0b1219;
+    --light-black: #151b39;
+    --gray: #6F7284;
+    --pink: #ef4281;
+    --footer-bg: linear-gradient(to bottom,rgba(36,174,177,0) 50%,rgba(36,174,177,.7) 130%),linear-gradient(to bottom,#fff,#fff);
+}
+
+body{
+    font-family: Lato;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1520px;
+    margin: auto;
+}
+
+header {
+    background-color: var(--header-bg);
+}
+
+header .logo{
+    width: 200px;
+}
+
+.search-bar form input{
+    width: 400px;
+    height: 40px;
+}
+
+.search-bar form select{
+    height: 50px;
+}
+
+.sub-menu{
+    background-color: var(--header-bg);
+}
+
+.sub-menu ul{
+    list-style: none;
+}
