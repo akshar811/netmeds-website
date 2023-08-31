@@ -10,6 +10,21 @@
 
 body{
     font-family: Lato;
+    background-color: #f3f7fb;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
 }
 
 *{
@@ -19,8 +34,54 @@ body{
 }
 
 .container{
-    max-width: 1520px;
+    max-width: 1620px;
     margin: auto;
+}
+
+.btn-bg{
+    background-image: linear-gradient(75deg,#fbc82f,#fff48a 100%),linear-gradient(to bottom,#0b1219,#0b1219);
+}
+
+.pink{
+    color: var(--pink);
+}
+
+.object-fit{
+    object-fit: cover;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.bx-shadow{
+    
+    box-shadow: 2px 5px 5px rgba(128, 128, 128, 0.4);
+}
+
+.bg-img{
+    background: #fff url(https://www.netmeds.com/assets/version1692879680/gloryweb/images/nsBg.png) repeat center/100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-light{
+    background-color: #fff;
 }
 
 header {
@@ -46,4 +107,80 @@ header .logo{
 
 .sub-menu ul{
     list-style: none;
+}
+
+nav .dropdown , nav .submenu{
+    position: absolute;
+    background-color: var(--white);
+    transition: all 0.5s;
+    visibility:hidden;
+    opacity: 0;
+    z-index: 9;
+    transform: translatey(25px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+nav .dropdown li a,nav .submenu li a{
+    color: var(--dark-900);
+    display: block;
+    padding: 15px 30px;
+    transition: all 0.5s;
+    border-bottom: 1px solid #f4f4f4;
+}
+nav .dropdown li:last-child a,nav .submenu li:last-child a{
+    border: none;
+}
+nav ul li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+    transform: translatey(5px);
+}
+nav .dropdown li:hover a{
+    transform: translatex(5px);
+}
+nav .dropdown li:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown  .submenu{
+    left: 100%;
+    width: 200px;
+    bottom: 0;
+}
+.megamenu{
+    width: 900px;
+    background-color: white;
+    position: absolute;
+    visibility: hidden;
+    transition: all 0.5s;
+    opacity: 0;
+    transform: translatey(25px) ;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    z-index: 9;
+}
+.megamenu ol li a{
+    color: var(--dark-900);
+    padding: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
+.megamenu ol li:hover a{
+    color: var(--primary-900);
+}
+.megamenu ol li:last-child a{
+    border: none;
+}
+ul li:hover .megamenu{
+    visibility: visible;
+    opacity: 1;
+    transform: translatey(0px);
+} 
+
+.card{
+    border: none;
+    border-radius: 8px;
+    color: black;
+}
+
+.card-text{
+    color: var(--green);
 }

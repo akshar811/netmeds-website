@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,50 +14,450 @@
     <!-- <link rel="stylesheet" href="style/bootstrap-icons.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
+
 <body>
     <header class="navbar navbar-expand-md fw-bold">
         <div class="container d-flex align-items-center justify-content-between">
-                <div>
-                    <img src="assets/img/logo.svg" class="logo">
-                </div>
-                <!-- <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse"
+            <div>
+                <img src="assets/img/logo.svg" class="logo">
+            </div>
+            <!-- <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#headerMenu">
                     <span class="navbar-toggler-icon border-0"></span>
                 </button> -->
-                <div class="search-bar">
-                    <form action="">
-                        <select class="border-start rounded-start fs-6">
-                            <option>Deliver to 395004</option>
-                            <input type="text" class="border-0 rounded-end p-4 fs-6" placeholder="Search for medicine & wellness products...">
-                        </select>
-                    </form>
-                </div>
-                <div id="headerMenu">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item px-2"><a href="index.html" class="nav-link text-light"><i class="bi bi-newspaper"></i> Upload</a></li>
-                        <li class="nav-item px-2"><a href="about.html" class="nav-link text-light"><i class="bi bi-tag"></i> Offers</a></li>
-                        <li class="nav-item px-2"><a href="services.html" class="nav-link text-light"><i class="bi bi-cart3"></i> Cart<a></li>
-                        <li class="nav-item px-2"><a href="blog.html" class="nav-link text-light"><i class="bi bi-person-circle"></i> Sign in / Sign up</a></li>
-                        <!-- <button class="btn btn-primary px-4" data-bs-toggle="offcanvas" data-bs-target="#freeOffCanvas">Free
+            <div class="search-bar">
+                <form action="">
+                    <select class="border-end rounded-start fs-6">
+                        <option>Deliver to 395004</option>
+                        <input type="text" class="border-0 rounded-end p-4 fs-6"
+                            placeholder="Search for medicine & wellness products...">
+                    </select>
+                </form>
+            </div>
+            <div id="headerMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-2"><a href="#" class="nav-link text-light"><i class="bi bi-newspaper"></i>
+                            Upload</a></li>
+                    <li class="nav-item px-2"><a href="#" class="nav-link text-light"><i class="bi bi-tag"></i>
+                            Offers</a></li>
+                    <li class="nav-item px-2"><a href="#" class="nav-link text-light"><i class="bi bi-cart3"></i>
+                            Cart<a></li>
+                    <li class="nav-item px-2"><a href="#" class="nav-link text-light"><i
+                                class="bi bi-person-circle"></i> Sign in / Sign up</a></li>
+                    <!-- <button class="btn btn-primary px-4" data-bs-toggle="offcanvas" data-bs-target="#freeOffCanvas">Free
                             Analytics</button> -->
-                    </ul>
-                </div>
+                </ul>
+            </div>
         </div>
+
+    </header>
+
+    <nav>
+        <div class="sub-menu pb-1">
+            <ul class="d-flex justify-content-evenly">
+                <li class="text-light"><a href="#" class="text-decoration-none text-light">Medicine <i
+                            class="fa-solid fa-angle-down"></i></a>
+
+                    <ol class="dropdown">
+                        <li><a href="#" class="text-dark text-decoration-none">All Medicines</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Buy Again</a></li>
+                    </ol>
+
+                </li>
+                <li class="text-light"><a href="#" class="text-decoration-none text-light">Wellness <i
+                            class="fa-solid fa-angle-down"></i></a>
+
+                    <div class="megamenu">
+                        <div class="row">
+                            <div class="w-25 col-xl-3 col-lg-3 col-md-3">
+                                <ol>
+                                    <li><a href="#" class="text-decoration-none text-dark">Aayush</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark">Aayurvedic</a></li>
+                                </ol>
+                            </div>
+                            <div class="w-25 col-xl-3 col-lg-3 col-md-3">
+                                <ol>
+                                    <li><a href="#" class="text-decoration-none text-dark">Diabetes Support</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark">Glocometer</a></li>
+                                </ol>
+                            </div>
+                            <div class="w-25 col-xl-3 col-lg-3 col-md-3">
+                                <ol>
+                                    <li><a href="#" class="text-decoration-none text-dark">Health Condition</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark">Women Care</a></li>
+                                </ol>
+                            </div>
+                            <div class="w-25 col-xl-3 col-lg-3 col-md-3">
+                                <ol>
+                                    <li><a href="#" class="text-decoration-none text-dark">Personal Care</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark">Home & Health</a></li>
+                                </ol>
+                            </div>
+                            <div class="w-25 col-xl-3 col-lg-3 col-md-3">
+                                <ol>
+                                    <li><a href="#" class="text-decoration-none text-dark">Surgical</a></li>
+                                    <li><a href="#" class="text-decoration-none text-dark">Respiratory Supplies</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="text-light"><a href="#" class="text-decoration-none text-light">Lab Tests</a></li>
+                <li class="text-light"><a href="#" class="text-decoration-none text-light">Beauty <i
+                            class="fa-solid fa-angle-down"></i></a></li>
+                <li class="text-light"><a href="#" class="text-decoration-none text-light">Health Corner <i
+                            class="fa-solid fa-angle-down"></i></a>
+
+                    <ol class="dropdown">
+                        <li><a href="#" class="text-dark text-decoration-none">Health Library</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">PatientAlike</a></li>
+                        <li><a href="#" class="text-dark text-decoration-none">Corona Awareness</a></li>
+                    </ol>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="banner pt-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://mercury.akamaized.net/i/d176389fdca77bb3a7dbb32cb20bc72f_207080_0.jpg"
+                            class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://mercury.akamaized.net/i/1e961d351472f0e6652e2ee4bc738b94_201602_0.jpg"
+                            class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://mercury.akamaized.net/i/438a6543f1dbf1d55fa5438637402841_201575_0.jpg"
+                            class="d-block w-100 img-fluid" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class=" col-lg-4 col-sm-3 col-xs-12">
+                <div class="card bx-shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Order Medicine <i class="bi bi-arrow-right-short"></i> </h5>
+                        <p class="card-text">Save Upto 25% off</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-3 col-xs-12">
+                <div class="card bx-shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Beauty <i class="bi bi-arrow-right-short"></i> </h5>
+                        <p class="card-text">Save Upto 45% off</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4 col-sm-3 col-xs-12">
+                <div class="card bx-shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Wellness <i class="bi bi-arrow-right-short"></i> </h5>
+                        <p class="card-text">Upto 85% off</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <h1 class="fs-24 pt-4 pb-4 fw-bold">Payment Partner Offers</h1>
+
+
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class=" col-lg-4 col-sm-3 col-xs-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-12 fw-bold">Swasth India Sale: Pay Using Pay with
+                                            Rewards &
+                                            get Flat Rs. 100 cashback*..</h6>
+                                            <p class="card-text opacity-50 text-dark fs-12">ALL users get Flat Rs. 100
+                                                Cashback on ONLY one transaction of min. Rs 999 on ANY no. of
+                                                transaction..
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-4 col-sm-3 col-xs-12">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-12 fw-bold">Get Flat 10% Simpl Cashback of up to Rs.
+                                            1000*!..</h5>
+                                        <p class="card-text opacity-50 text-dark fs-12">Get Flat 10% Simpl Cashback of
+                                            up to
+                                            Rs. 1000 on your FIRST-EVER payment via Simpl for ANY purchases..</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-lg-4 col-sm-3 col-xs-12">
+                                <div class="card ">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-12 fw-bold">Get up to Rs. 250 CRED pay Cashback!..
+                                        </h5>
+                                        <p class="card-text opacity-50 text-dark fs-12">Get CRED pay Cashback of up to
+                                            Rs.
+                                            250 on a minimum purchase of ANY products* worth Rs. 750, when yo..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class=" col-lg-4 col-sm-3 col-xs-12">
+                            <div class="card ">
+                                <div class="card-body">
+                                    <h5 class="card-title fs-12 fw-bold">Get up to Rs. 500 Paytm Cashback!..</h5>
+                                    <p class="card-text opacity-50 text-dark fs-12">Get Paytm Cashback of up to Rs. 500
+                                        on a minimum purchase of ANY products* worth Rs. 999, when you p..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <h1 class="fs-24 pt-4 pb-4 fw-bold">Trending Today</h1>
+
+        <div class="d-flex justify-content-between">
+            <div class=" col-lg-4 col-sm-3 col-xs-12 me-3">
+                <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1692186204_Mini-banner_web.jpg"
+                    class="rounded">
+
+
+            </div>
+            <div class=" col-lg-4 col-sm-3 col-xs-12">
+                <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1689852884_Mini-banner_web_12.jpg"
+                    class="rounded">
+
+
+            </div>
+            <div class=" col-lg-4 col-sm-3 col-xs-12">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <h1 class="fs-24 pt-4 pb-4 fw-bold">Shop by Category</h1>
+
+        <div class="d-flex justify-content-between">
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/prod/thumb/face_wash_cleansers.png" class="rounded">
+
+
+            </div>
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/prod/thumb/dressing.png" class="rounded">
+
+
+            </div>
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/prod/thumb/condoms.png" class="rounded">
+            </div>
+
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/prod/thumb/pain_relief_application.png"
+                    class="rounded">
+            </div>
+
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/prod/thumb/feminine_hygiene.png" class="rounded">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="d-flex">
+            <div class=" col-lg-6 me-5">
+                <div class="bg-img">
+                    <div class="d-flex h-100 align-items-center justify-content-start ps-5">
+                        <div>
+                            <img src="https://www.netmeds.com/assets/gloryweb/images/store.svg" class="w-100">
+                        </div>
+                        <div class="m-3">
+                            <h4 class="card-body fw-bold fs-24">Netmeds Stores</h4>
+                            <p class="card-text fw-bold fs-20">Stores Near you <i class="bi bi-arrow-right-short"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-lg-6">
+                <div class="bg-white p-2">
+                    <div>
+                        <div>
+                            <img src="https://www.netmeds.com/images/cms/section/images/1687195916_1683947020_65_off.png"
+                                class="w-100">
+
+                        </div>
+                        <div class="m-3">
+                            <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1687178899_1683947182_frame_588.png"
+                                class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
                         </header>
 
 
-    <div class="sub-menu pb-1">
-        <ul class="d-flex justify-content-evenly">
-            <li class="text-light">Medicine</li>
-            <li class="text-light">Wellness</li>
-            <li class="text-light">Lab Tests</li>
-            <li class="text-light">Beauty</li>
-            <li class="text-light">Health Corner</li>
-        </ul>
     </div>
-    <h1></h1>
+
+    <div class="container">
+        <h1 class="fs-24 pt-4 pb-4 fw-bold">Brands in Focus</h1>
+
+        <div class="d-flex justify-content-evenly">
+            <div class=" col-lg-2">
+                <div class="bg-white text-center p-5 rounded">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/himalaya.jpg?v=14" class="">
+                    <h5 class="card-title fs-6 fw-bold m-4">Himalaya</h5>
+                    <p class="card-text">Save Upto 35% off</p>
+                </div>
+            </div>
+            <div class=" col-lg-2">
+                <div class="bg-white text-center p-5 rounded">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/accu-chek.jpg?v=14" class="">
+                    <h5 class="card-title fs-6 fw-bold m-4">Accu-Check</h5>
+                    <p class="card-text">Save Upto 25% off</p>
+                </div>
+            </div>
+            <div class=" col-lg-2">
+                <div class="bg-white text-center p-5 rounded">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/dabur.jpg?v=14" class="">
+                    <h5 class="card-title fs-6 fw-bold m-4">Dabur</h5>
+                    <p class="card-text">Save Upto 30% off</p>
+                </div>
+            </div>
+            <div class=" col-lg-2">
+                <div class="bg-white text-center p-5 rounded">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/manforce.jpg?v=14" class="">
+                    <h5 class="card-title fs-6 fw-bold m-4">manforce</h5>
+                    <p class="card-text">Save Upto 25% off</p>
+                </div>
+            </div>
+            <div class=" col-lg-2">
+                <div class="bg-white text-center p-5 rounded">
+                    <img src="https://www.netmeds.com/images/cms/wysiwyg/brand/v2/msite/cetaphil.jpg?v=14" class="">
+                    <h5 class="card-title fs-6 fw-bold m-4">Cetaphil</h5>
+                    <p class="card-text">Save Upto 18% off</p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="my-5">
+    </div>
+
+    <div class="container">
+        <h1 class="fs-24 pt-4 pb-4 fw-bold">Categories in Focus</h1>
+
+        <div class="d-flex justify-content-between">
+            <div class=" col-lg-2">
+
+                <img src="https://www.netmeds.com/images/category/prod/thumb/feminine_hygiene.png" class="rounded">
+
+            </div>
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/v1/525/thumb/body_care_4.png" class="rounded">
+
+
+            </div>
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/prod/thumb/ayurvedic.png" class="rounded">
+            </div>
+
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/prod/thumb/orthopaedics.png" class="rounded">
+            </div>
+
+            <div class=" col-lg-2">
+                <img src="https://www.netmeds.com/images/category/prod/thumb/sports_supplements.png" class="rounded">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h5 class="card-title fs-24 text-dark fw-bold">Netmeds First Membership</h5>
+                        <p class="card-text fs-16 text-dark opacity-50">Get special discounts and offers on Netmeds services.</p>
+                        <p class="card-text fs-16 text-dark opacity-50">Get 2% NMS Cash on all orders.</p>
+                    </div>
+                    <div>
+                        <p class="pink me-3 d-inline"><i class="bi bi-lightning-charge"></i> Starting at 💵149</p>
+                        <button type="button" class="btn btn-bg">Explore Plans</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 <script src="javascript/bootstrap.min.js"></script>
 <script src="javascript/index.js"></script>
+
+</html>
+=======
 </html>
