@@ -184,3 +184,13 @@ ul li:hover .megamenu{
 .card-text{
     color: var(--green);
 }
+
+.bx{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.border-start{
+    border-left: 2px solid black;
+    padding: 15px;
+}
