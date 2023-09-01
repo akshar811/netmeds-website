@@ -3,19 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ayurvedic page</title>
+    <title>Login page</title>
     <link rel="stylesheet" href="/style/all.min.css" />
     <link rel="stylesheet" href="/style/fonts.css" />
     <link rel="stylesheet" href="/style/bootstrap.min.css" />
     <link rel="stylesheet" href="/style/login.css" />
   </head>
   <body>
-       
-      
+    <header>
+      <div class="container">
+          <div class="d-flex align-items-center">
+              <div class="logo">
+                 <img src="/images/login-logo.svg">
+              </div>
+              <div class="deliver">
+                 <div class="deliver-1">
+                  Deliver to <span>
+                      110002
+                  </span>
+                 </div>
+              </div>
+              <form action="">
+                  <input type="text" placeholder="Search for medicine & wellness products…">
+              </form> 
+              <div class="d-flex upload">
+                <img src="/images/upload_rx.svg" alt="">
+                  <h5>Upload</h5>
+              </div>
+              <div class="d-flex cart">
+                <img src="/images/cart_icon.svg" alt="">
+                  <h5>Cart</h5>
+              </div>
+          </div>
+      </div>
+  </header>
+
+    <div id="box">
+      <div id="box1">
+        <img src="/images/login-form.png" alt="" />
+      </div>
+      <div id="box2">
+        <div>
+          <h2>Sign In / Sign up</h2>
+          <p>
+            Sign up or Sign in to access your orders, special offers, <br />
+            health tips and more!
+          </p>
+          <p>PHONE NUMBER</p>
+          <div id="border-bottom">
+            <label for="">+91 |</label>
+            <input
+              type="number"
+              id="phone11"
+              placeholder="Enter your mobile no."
+            />
+          </div>
+          <div id="otp">
+            <p>We have sent 6 digit OTP</p>
+            <input
+              type="number"
+              id="phone12"
+              placeholder="Enter OTP number here"
+            />
+          </div>
+          <button id="btn11">Verify</button>
+
+          <div id="bb">
+            <a href="https://www.google.com/" id="facebook">
+              <button>
+                <div>
+                  <img src="/images/google-icon.png" alt="" />
+                </div>
+                <div><p>Google</p></div>
+              </button></a
+            >
+            <a href="https://www.facebook.com/" id="facebook">
+              <button>
+                <div>
+                  <img src="/images/facebook-icon.png" alt="" />
+                </div>
+                <div><p>Facebook</p></div>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="f-1">
+      <p  class="terms-service"> By continuing you agree to our
+        <a _ngcontent-egn-c7="" href="/terms-and-conditions" >Terms of service</a><br/> and
+        <a  href="/privacy-policy">Privacy &amp; Legal Policy.</a >
+      </p>
+    </div>
   </body>
 
   <script src="/javascript/bootstrap.min.js"></script>
 
   <script type="module" src="/javascript/login.js"></script>
-
 </html>
