@@ -14,13 +14,14 @@ body{
     background-color: #f3f7fb;
 }
 
-.navbar{
-    position: sticky;
+.position-sticky{
+    position: sticky ;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 9999;
+
 }
 
 img{
@@ -33,11 +34,6 @@ img{
     padding: 0;
     box-sizing: border-box;
     outline: none;
-}
-
-.container{
-    max-width: 1620px;
-    margin: auto;
 }
 
 .btn-bg{
