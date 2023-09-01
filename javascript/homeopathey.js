@@ -1,3 +1,7 @@
+import navbar from "../components/nav.js";
+document.getElementById("nav").innerHTML = navbar()
+
+
 const display = (data) => {
     document.getElementById("box2").innerHTML = "";
     data.map((product) => {
