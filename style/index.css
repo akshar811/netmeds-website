@@ -28,6 +28,10 @@ body{
     background: url(https://www.netmeds.com/images/cms/section/images/1686050237_Watch_Image.png) no-repeat left bottom / 240px, linear-gradient(to bottom, rgb(255 255 255 / -2%), rgba(255, 255, 255, .4) 78%), linear-gradient(180deg, #ab1e24, #ab1e24);
 }
 
+.bg-2{
+    background: url(https://www.netmeds.com/images/cms/section/images/1687239239_Money_Image.png) no-repeat left bottom / 240px, linear-gradient(to bottom, rgb(255 255 255 / -2%), rgba(255, 255, 255, .4) 78%), linear-gradient(180deg, #5ECDDE, #5ECDDE);
+}
+
 
 *{
     margin: 0;
