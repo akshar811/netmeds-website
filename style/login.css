@@ -1,144 +1,105 @@
 
 * {
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-}
-body {
-  background-color: #e3e7eb;
-}
-
-#box {
-  width: 976px;
-  height: 528px;
-  display: flex;
-  margin: auto;
-  margin-top: 40px;
-}
-#box1 {
-  width: 488px;
-  height: 528px;
-  border-radius: 14px 0px 0px 14px;
-  background-color: white;
-}
-#box1 > img {
-  border-radius: 14px 0px 0px 14px;
-}
-#box2 {
-  width: 488px;
-  height: 528px;
-  background-color: white;
-  border-radius: 14px;
-  border-radius: 0px 14px 14px 0px;
-}
-#box2 h2{
-  padding: 0;
-  margin: 0 0 8px;
-  font-family: 'Lato';
-  font-size: 25px;
-  color: #151b39;
-  font-weight: 700;
-}
-#box2 > div {
-  margin-top: 40px;
-  margin-left: 40px;
-}
-
-#box2 > div > p {
-  font-size: 15px;
-  color: rgba(21,27,57,.6);
-  margin-bottom: 35px;
-  font-weight: 500;
-  margin-top: 8px;
-}
-
-#box2 > div > p ~ p {
-  font-family: 'Lato';
-  font-size: 14px;
-  color: #24aeb1;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-input {
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-bottom: 0px;
-  width: 315px;
-  height: 30px;
-  margin-bottom: 10px;
-  outline: none;
-}
-
-#btn11 {
-  height: 40px;
-  width: 360px;
-  background-color: #17a2b8;
-  border: 0px;
-  border-radius: 4px;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  margin-bottom: 40px;
-}
-
-#bb {
-  display: flex;
-  width: 350px;
-  justify-content: space-around;
-}
-#bb a{
-  text-decoration: none;
-}
-#bb a button{
-  display: flex;
-    background: #fff;
-    border: 1px solid rgba(21,27,57,.2);
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+  }
+  body {
+    background-color: #e3e7eb;
+  }
+  
+  #box {
+    width: 976px;
+    height: 528px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+  }
+  #box1 {
+    width: 580px;
+    height: 528px;
+    border-radius: 14px 0px 0px 14px;
+    background-color: white;
+  }
+  #box1 > img {
+    border-radius: 14px 0px 0px 14px;
+  }
+  #box2 {
+    width: 488px;
+    height: 528px;
+    background-color: white;
+    border-radius: 14px;
+    border-radius: 0px 14px 14px 0px;
+  }
+  #box2 h2{
+    padding: 0;
+    margin: 0 0 8px;
+    font-family: 'Lato';
+    font-size: 25px;
+    color: #151b39;
+    font-weight: 700;
+    padding-top: 40px;
+  }
+ 
+  .f-1{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .f-1 p{
     font-size: 14px;
     color: rgba(21,27,57,.6);
-    text-align: center;
-    padding:0px 28px ;
+    font-weight: 500;
+  }
+  .f-1 p a{
+    color: #ef4281;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .form-group label {
+    display: block;
+    font-size: 13px;
+    color: #24aeb1;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+.p-1{
+  padding-top: 20px !important;
+}
+  .form-group input{
+    border-bottom: 2px solid rgba(21,27,57,.04);
+    font-size: 16px;
+    color: #151b39;
+    padding: 3px 0;
+    margin: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 360px;
+    background-color: transparent;
+    outline: none;
+  }
+  input::placeholder{
+    color: #ced4da;
+    font-weight: 500;
+  }
+#sub input{
+  background: #24aeb1;
+    font-family: LatoBold;
+    font-size: 14px;
+    color: #fff;
     border-radius: 4px;
-    
-}
-#bb a button img{
-  width: 20px;
-  padding-top: 12px;
-}
-#bb a button p{
-  padding-top: 12px;
-  padding-left: 16px;
-}
-#border-bottom{
-  border-bottom: 3px solid rgba(21,27,57,.04);
-  width: 360px;
-  margin-bottom: 10px;
-}
-span {
-  color: #ef4281;
+    box-shadow: none!important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'lato';
+    margin-top: 17px !important;
+    padding: 12px 6px;
+    width:86%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
 }
 
-#otp > input {
-  margin-top: -90px;
-  width: 355px;
-}
-
-.f-1{
-  text-align: center;
-  padding-top: 10px;
-}
-.f-1 p{
-  font-size: 14px;
-  color: rgba(21,27,57,.6);
-  font-weight: 500;
-}
-.f-1 p a{
-  color: #ef4281;
-  text-decoration: none;
-  font-weight: 500;
-}
 
 .align-items-center {
   align-items: center;
@@ -146,7 +107,7 @@ span {
 
 
 header{
-  padding: 13px;
+  padding: 20px;
   background-color:#24aeb1;
 }
 .logo img{
@@ -189,7 +150,6 @@ form input{
   padding: 0 15px 0 35px;
   width: 600px;
   outline: none;
-  margin-top: 10px;
 }
 form input::placeholder{
   font-size: 17px;

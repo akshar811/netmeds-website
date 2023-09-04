@@ -1,30 +1,6 @@
 
-const Login = (e) => {
-    e.preventDefault();
-    let Password = document.getElementById("Password").value;
-    let email = document.getElementById("email").value;
-    fetch(`http://localhost:3000/user?email=${email}`)
-        .then((res) => res.json())
-        .then((data) => {
-            if (data.length > 0) {
-                if (data[0].Password === Password) {
-                    localStorage.setItem("loggedIn", true);
-                    alert("login success");
-                }
-                else {
-                    alert("login invalid");
-                }
-            }
-            else {
-                alert("user not found");
-            }
-        });
-};
-document.getElementById("signupdata").addEventListener("submit", Login);
-
-
   var number=JSON.parse(localStorage.getItem("mobile"))
-  var count=true;
+  var count=false;
 
   // console.log(typeof(number))
 
@@ -47,8 +23,7 @@ document.getElementById("signupdata").addEventListener("submit", Login);
 
              alert(`your otp is ${aa}`)
             }
-          else if(number!=c) {
-
+          else if(number!==c) {
                alert("Your number is incorrect")
                
               }
@@ -101,3 +76,11 @@ function myfunc3(){
     }
 }
 
+document.querySelector("#signin").addEventListener("click",myfunc4)
+var a=JSON.parse(localStorage.getItem("mobile"))
+function myfunc4(){
+    if(a==null)
+    {
+        alert("Please do SignUp/SignIn First")
+    }
+}
