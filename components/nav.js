@@ -1,4 +1,4 @@
-const navbar = () =>{
+const navbar = () => {
     return `
     
     <header class="position-sticky navbar-expand-md">
@@ -6,16 +6,16 @@ const navbar = () =>{
             <div>
                 <a href="/index.html"><img src="https://nms-assets.s3-ap-south-1.amazonaws.com/images/cms/aw_rbslider/slides/1663609483_netmeds-new-logo.svg" class="logo"></a>
             </div>
-            <div class="search-bar">
-                <form action="">
-                    <select class=" rounded-start fs-6 text-left">
-                        <option>Where do you want the delivery?</option>
-                        <option>e.g Deliver to 395004</option>
-                        <input type="text" class="border-0 rounded-end p-4 px-5 fs-6 text-left"
-                            placeholder="Search for medicine & wellness products...">
-                    </select>
-                </form>
-            </div>
+            <div class="deliver">
+                 <div class="deliver-1">
+                  Deliver to <span>
+                      110002
+                  </span>
+                 </div>
+              </div>
+              <form action="">
+                  <input type="text" placeholder="Search for medicine & wellness products…">
+              </form> 
             <div id="headerMenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item px-2"><a href="#" class="nav-link text-light"><i class="bi bi-newspaper"></i>
@@ -33,7 +33,7 @@ const navbar = () =>{
 
     </header>
 
-    <nav>
+    <nav class="">
         <div class="sub-menu pb-1">
             <ul class="container d-flex justify-content-evenly">
                 <div class="d-flex align-items-center">
