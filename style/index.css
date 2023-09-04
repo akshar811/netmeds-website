@@ -143,3 +143,82 @@ header .logo{
     border-left: 2px solid black;
     padding: 15px;
 }
+
+.form-group input{
+    border-bottom: 2px solid rgba(21,27,57,.04);
+    font-size: 16px;
+    color: #151b39;
+    padding: 3px 0;
+    margin: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 360px;
+    background-color: transparent;
+    outline: none;
+  }
+  input::placeholder{
+    color: #ced4da;
+    font-weight: 500;
+  }
+#sub input{
+  background: #24aeb1;
+    font-family: LatoBold;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: none!important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'lato';
+    margin-top: 17px !important;
+    padding: 12px 6px;
+    width:86%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.deliver{
+  width: 141px;
+  height: 48px;
+  float: left;
+  background: #fff;
+  border-radius: 6px 0 0 6px;
+  margin-left: 50px;
+}
+.deliver-1{
+  padding: 0 0 0 16px;
+  position: relative;
+  font-family: Lato;
+  font-size: 13px;
+  color: rgba(21,27,57,.5);
+  line-height: 22px;
+  width: 160px;
+  border-right: 1px solid rgba(11,18,25,.2);
+  margin: 13px 0;
+  z-index: 1;
+}
+.deliver-1 span{
+  color: #24aeb1;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 5px;
+}
+form input{
+  background: #fff;
+  border: 0;
+  border-radius: 0 6px 6px 0;
+  font-family: Lato;
+  font-size: 14px;
+  color: #151b39;
+  height: 48px;
+  padding: 0 15px 0 35px;
+  width: 600px;
+  outline: none;
+}
+form input::placeholder{
+  font-size: 17px;
+  font-weight: 400;
+}
