@@ -5,27 +5,27 @@ const signupdata = (e) => {
   let user = {
     email: document.getElementById("email").value,
     fname: document.getElementById("fname").value,
-    lname: document.getElementById("lname").value,
+    Password: document.getElementById("Password").value,
   };
   console.log(user);
   var fname = /^[a-zA-Z\-]+$/;
-  var lname = /^[a-zA-Z\-]+$/;
   var email = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+  var Password = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
   if (!fname.test(user.fname)) {
     document.getElementById("f_err").innerHTML = "Not a valid name";
   }
-  if (!lname.test(user.lname)) {
-    document.getElementById("l_err").innerHTML = "Not a valid name";
+ 
+  if (!Password.test(user.Password)) {
+    document.getElementById("p_err").innerHTML =
+      "Password is not a valid password";
   }
-
   if (!email.test(user.email)) {
     document.getElementById("e_err").innerHTML = "Not a valid email address";
   }
 
   if (
-    email.test(user.email) &&
-    fname.test(user.fname) &&
-    lname.test(user.lname)
+    email.test(user.email) &&   Password.test(user.Password) && 
+    fname.test(user.fname) 
   ) {
     fetch(`http://localhost:3000/user?email=${user.email}`)
       .then((res) => res.json())
@@ -34,7 +34,7 @@ const signupdata = (e) => {
           localStorage.setItem("loggedIn", true);
           alert("user alredy exists");
           setTimeout(() => {
-            window.location.href = "index.html";
+            window.location.href = "/pages/login.html";
           }, 2000);
         } else {
           localStorage.setItem("users", JSON.stringify(user));
