@@ -45,15 +45,7 @@ const navbar = () =>{
                             class="text-decoration-none text-light">Aayurvedic</a> </li>
                     </div>
                 </div>
-                <div class="d-flex align-items-center">
-                    <div class="me-2">
-                        <img src="https://www.netmeds.com/assets/gloryweb/images/icons/wellness.svg" class="">
-                    </div>
-                    <div>
-                        <li class="text-light"><a href="/pages/details.html"
-                            class="text-decoration-none text-light">Details</a> </li>
-                    </div>
-                </div>
+               
                 <div class="d-flex align-items-center">
                     <div class="me-2">
                         <img src="https://www.netmeds.com/assets/gloryweb/images/icons/diagnostics.svg" class="">
