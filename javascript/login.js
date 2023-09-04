@@ -1,6 +1,6 @@
 
   var number=JSON.parse(localStorage.getItem("mobile"))
-  var count=false;
+  var count=true;
 
   // console.log(typeof(number))
 
@@ -23,7 +23,8 @@
 
              alert(`your otp is ${aa}`)
             }
-          else if(number!==c) {
+          else if(number!=c) {
+
                alert("Your number is incorrect")
                
               }

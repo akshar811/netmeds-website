@@ -104,6 +104,7 @@ body{
 #box4 .div2 img{
     margin: auto;
     display: block;
+    cursor: pointer;
 }
 #box4 .div2 .img-1{
     width: 13px;
