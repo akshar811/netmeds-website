@@ -1,0 +1,69 @@
+{
+  "index1": [
+    {
+      "id": 1,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/368144/2baconil_tts20_14mg_patch_7s_44132_0_2.jpg",
+      "title": "Dr. Willmar Schwabe Damiaplant Tonic 30 ml",
+      "description": "Mkt: Dr.Willmar Schwabe India Pvt. Ltd",
+      "price": " 361.25",
+      "del": "MRP Rs. 425.00",
+      "filter": "Ayush",
+      "filters": "Homeopathy",
+      "rating": 3.9,
+      "icn": "/images/star-regular.svg",
+      "discount": "15% off"
+    },
+    {
+      "id": 2,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/368144/2baconil_tts20_14mg_patch_7s_44132_0_2.jpg",
+      "title": "Dr. Willmar Schwabe Damiaplant Tonic 30 ml",
+      "description": "Mkt: Dr.Willmar Schwabe India Pvt. Ltd",
+      "price": " 361.25",
+      "del": "MRP Rs. 425.00",
+      "filter": "Ayush",
+      "filters": "Homeopathy",
+      "rating": 3.9,
+      "icn": "/images/star-regular.svg",
+      "discount": "15% off"
+    },
+    {
+      "id": 3,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/852538/turmaboost_capsule_10s_75691_0_1.jpg",
+      "title": "Dr. Willmar Schwabe Damiaplant Tonic 30 ml",
+      "description": "Mkt: Dr.Willmar Schwabe India Pvt. Ltd",
+      "price": " 361.25",
+      "del": "MRP Rs. 425.00",
+      "filter": "Ayush",
+      "filters": "Homeopathy",
+      "rating": 3.9,
+      "icn": "/images/star-regular.svg",
+      "discount": "15% off"
+    },
+    {
+      "id": 4,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/899309/ruvega_perilla_oil_omega_3_capsule_10s_100886_0_1.jpg",
+      "title": "Dr. Willmar Schwabe Damiaplant Tonic 30 ml",
+      "description": "Mkt: Dr.Willmar Schwabe India Pvt. Ltd",
+      "price": " 361.25",
+      "del": "MRP Rs. 425.00",
+      "filter": "Ayush",
+      "filters": "Homeopathy",
+      "rating": 3.9,
+      "icn": "/images/star-regular.svg",
+      "discount": "15% off"
+    },
+    {
+      "id": 5,
+      "image": "https://www.netmeds.com/images/product-v1/150x150/891035/upakarma_ayurveda_pure_resin_raw_shilajit_15_gm_0.jpg",
+      "title": "Dr. Willmar Schwabe Damiaplant Tonic 30 ml",
+      "description": "Mkt: Dr.Willmar Schwabe India Pvt. Ltd",
+      "price": " 361.25",
+      "del": "MRP Rs. 425.00",
+      "filter": "Ayush",
+      "filters": "Homeopathy",
+      "rating": 3.9,
+      "icn": "/images/star-regular.svg",
+      "discount": "15% off"
+    }
+  ]
+}

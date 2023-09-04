@@ -723,7 +723,7 @@ progress {
     .container-sm,
     .container-xl,
     .container-xxl {
-        max-width: 1320px
+        max-width: 1400px
     }
 }
 
@@ -3275,9 +3275,9 @@ textarea.form-control.is-invalid {
 }
 
 .btn:hover {
-    color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
-    border-color: var(--bs-btn-hover-border-color)
+    /* color: var(--bs-btn-hover-color); */
+    /* background-color: var(--bs-btn-hover-bg); */
+    /* border-color: var(--bs-btn-hover-border-color) */
 }
 
 .btn-check+.btn:hover {
@@ -7787,7 +7787,7 @@ fieldset:disabled .btn {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1020
+    z-index: 9999;
 }
 
 .sticky-bottom {
