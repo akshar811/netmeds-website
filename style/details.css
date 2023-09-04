@@ -1,6 +1,19 @@
+:root {
+    --header-bg: #32AEB1;
+    --green: #5ba41c;
+    --dark-bg: #0b1219;
+    --light-black: #151b39;
+    --gray: #6F7284;
+    --pink: #ef4281;
+    --footer-bg: linear-gradient(to bottom,rgba(36,174,177,0) 50%,rgba(36,174,177,.7) 130%),linear-gradient(to bottom,#fff,#fff);
+}
 .font{
     font-family: Lato;
 }
+body{
+    background: #f3f3f3;
+}
+
 .but1{
     background-color: #D9D9D9;
     color: #83878A;
@@ -8,6 +21,9 @@
     border-radius: 15px;
     font: 14px;
     margin: 0px 5px 0px 0px;
+}
+.text-black{
+    color: #000;
 }
 .text-d9d9d9{
     color: #D9D9D9;
@@ -35,4 +51,39 @@
 }
 .width-100{
     width: 100px;
+}
+.info{
+    background-color: #24afb17c;
+}
+.box-004{
+    background-color: #73c330;
+    width: 322px;
+    height: 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.text-green{
+    color: var(--green);
+}
+.text-red{
+    color: #ef4281;
+}
+.box-005{
+    width: 1px;
+    height: 333px;
+    background-color: #000;
+}
+.padding{
+    padding-top:100px;
+    padding-left: 100px;
+}
+.box-006{
+    width: 360px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+body{
+    font-family: Lato;
 }
