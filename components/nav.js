@@ -6,6 +6,7 @@ const navbar = () => {
             <div>
                 <a href="/index.html"><img src="https://nms-assets.s3-ap-south-1.amazonaws.com/images/cms/aw_rbslider/slides/1663609483_netmeds-new-logo.svg" class="logo"></a>
             </div>
+            <form action="">
             <div class="deliver">
                  <div class="deliver-1">
                   Deliver to <span>
@@ -13,7 +14,6 @@ const navbar = () => {
                   </span>
                  </div>
               </div>
-              <form action="">
                   <input type="text" placeholder="Search for medicine & wellness products…">
               </form> 
             <div id="headerMenu">
